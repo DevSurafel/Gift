@@ -1,6 +1,7 @@
 services:
-  - type: worker
-    name: TVT
-    env: python3
+  - type: web
+    name: telegram-bot
+    env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python3 bot.py"
+    runtime: python-3.9

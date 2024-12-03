@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-bot
+    name: Gift
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python3 bot.py"
